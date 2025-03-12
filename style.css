@@ -2,5 +2,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Passion+One:wght@400;700;900&display=swap');
  :root {
-    --fonte1: 'sriracha',cursive ;
+    --fonte1: 'sriracha', cursive ;
+    --fonte2: 'passion one', sans serif;
  }
+
+ *{
+   margin: 0px;
+   padding: 0px;
+ }
+
+ header {
+   min-width: 300px;
+   background-color: black;
+   color: white;
+   text-align: center;
+ }
+
+ header > h1 {
+   font-family: var(--fonte2);
+   font-size: 80px;
+   padding: 30px;
+ }
+ header > p {
+   padding-bottom: 30px;
+ }
+
+ a {
+   font-weight: bolder;
+   text-decoration: none;
+   color: white;
+ }
+  a:hover {
+   text-decoration: underline;
+  }
+
+  div#a {
+   font-family: var(--fonte1);
+   min-width: 350px;
+   font-size: 30px;
+   padding: 40px;
+  }
+
+  div#b {
+   background: url(imagens/background001.jpg) left center no-repeat fixed;
+   background-size: 100% 100%;
+   font-family: var(--fonte1);
+   min-width: 350px;
+   font-size: 30px;
+   padding: 40px;
+  }
