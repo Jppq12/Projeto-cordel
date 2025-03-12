@@ -44,8 +44,15 @@
   }
 
   div#b {
-   background: url(imagens/background001.jpg) left center no-repeat fixed;
-   background-size: 100% 100%;
+   background-image: url(imagens/background001.jpg);
+   background-attachment: fixed;
+   background-size:25vh;
+   background-repeat: no-repeat;
+
+   height: 100%;
+   width: 100%;
+
+
    font-family: var(--fonte1);
    min-width: 350px;
    font-size: 30px;
